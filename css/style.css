@@ -264,14 +264,18 @@ input[type=submit]:hover {
     header ul{
         order: -1;
     }
-    header img{
-        order: 1;
+    header .logoImg{
+        display: flex;
+        grid-column: 3;
+        grid-row: 3;
     }
     .network{
         order: 2;
+        justify-self: end;
+        margin-right: 16px;
     }
     .container {
-    display: flex;
+    display: grid;
     justify-content: space-between;
     /*flex-direction: row-reverse;*/
 
