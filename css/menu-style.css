@@ -1,25 +1,21 @@
- #toggle {
+#toggle {
     position: absolute;
     visibility: hidden;
 }
 
 @media screen and (max-width: 768px) {
-
     .menuWrapper {
         display: flex;
         position: absolute;
     }
-
     .overlay {
         position: absolute;
         z-index: 1;
         left: 10px;
         height: 80px;
-        background-color: none;
         transition: left 600ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
     }
-
-    .overlay > label {
+    .overlay>label {
         cursor: pointer;
         display: block;
         position: relative;
@@ -30,17 +26,15 @@
         border-top: 4px solid #FFF;
         border-bottom: 4px solid #FFF;
     }
-
-    .overlay > label::before {
+    .overlay>label::before {
         content: '';
         display: block;
         position: relative;
         top: 5px;
         border-top: 4px solid #FFF;
     }
-
     .verticalNav {
-    /*header ul {*/
+        /*header ul {*/
         color: #333;
         position: absolute;
         top: 60px;
@@ -48,30 +42,26 @@
         height: 150px;
         padding: 20px;
         box-sizing: border-box;
-        background-color: #ddddddCC;
+        background-color: rgba(190, 190, 190, 0.75);
         transition: left 600ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
     }
-
     .verticalNav a {
-    /*header ul a {*/
+        /*header ul a {*/
         width: 120px;
         display: block;
         color: #111;
         text-decoration: none;
     }
-
     .verticalNav a:hover {
-    /*header ul a:hover {*/
+        /*header ul a:hover {*/
         width: 120px;
         background-color: #fff;
     }
-
-    #toggle:checked ~ .verticalNav {
+    #toggle:checked~.verticalNav {
         left: 0px;
         display: block;
     }
-
-    #toggle:not(:checked) ~ .verticalNav {
+    #toggle:not(:checked)~.verticalNav {
         left: -200px;
         display: block;
     }
@@ -79,11 +69,10 @@
 
 @media screen and (min-width: 768px) {
     .overlay,
-    .overlay > label,
-    .overlay > label:before {
+    .overlay>label,
+    .overlay>label:before {
         visibility: hidden;
     }
-
     .menuWrapper {
         grid-column: 4/6;
         grid-row: 3;
