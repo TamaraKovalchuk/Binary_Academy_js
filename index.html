@@ -1,193 +1,484 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Academy `18: HTML, CSS. Alik Rakhmonov</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/menu-style.css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-  </head>
-   <body>
-        <header>
-            <div class="container">
-                <div class="logoImg"><a href="https://vyo.travel/" target= "_blank"><img src="img/logo-light.png" alt="logo"></a></div>
-                <div class="network">
-                    <div class="social">
-                        <a href="https://www.facebook.com/vyo.travel" target= "_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
-                        <a href="https://www.instagram.com/vyo.travel/" target= "_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-                    </div>
-                    <a href="#"><i class="fa fa-search fa-2x" aria-hidden="true"></i></a>
-                </div>
-                <div class="menuWrapper">
-                    <div class="overlay">
-                        <label for="toggle"></label>
-                    </div>
-                    <input type="checkbox" id="toggle" name="toggle">
-                    <ul class="verticalNav">
-                        <li><a href="https://vyo.travel/" target= "_blank">Home</a></li>
-                        <li><a href="https://vyo.travel/tours/" target= "_blank">Tours</a></li>
-                        <li><a href="https://vyo.travel/about-us/" target= "_blank">About Me</a></li>
-                        <li><a href="https://vyo.travel/contacts/" target= "_blank">Contacts</a></li>
-                    </ul>
-                </div>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Academy 2018: UI & UX</title>
 
-            </div>
-        </header>
-        <div id="mainAsaid">
-        <main>
-            <div class="post">
-                <div class="image"><a href="#" target= "_blank"><img width="300" height="200" src="img/1.jpg" alt="1"></a></div>
-                <h1>Навколо Молбану</h1><p>Тижневий похід навколо Монблану – найвищої гори Альп. Починаючи з Шамоні побуваємо в 3 країнах, пройдемо шість перевалів і щодня насолоджуватимемось дуже різноманітними, але завжди неймовірними краєвидами.</p>
-                <hr>
-                <div class="hcs">
-                <p>20 minutes ago</p>
-                <a href="#" target= "_blank"><i class="fa fa-weixin" aria-hidden="true">12</i>
-                <i class="fa fa-star" aria-hidden="true">5</i></a>
-                </div>
-            </div>
-            <div class="post">
-                <div class="image"><a href="#" target= "_blank"><img width="300" height="200" src="img/2.jpg" alt="2"></a></div>
-                <h1>Трансфагараш</h1><p>Уявіть собі: найгарнішою дорогою у світі – Трансфагарашським шосе –  з’їжджаємо на велосипедах. Тобто 3 години котимося вниз, із перепадом висот – 2 кілометри. А потім піднімемося на найвищу румунську вершину Молдовяну – 2544 м.</p>
-                <hr>
-                <div class="hcs">
-                <p>one week ago</p>
-                <a href="#" target= "_blank"><i class="fa fa-weixin" aria-hidden="true">12</i>
-                <i class="fa fa-star-half-o" aria-hidden="true">3.5</i></a>
-                </div>
-            </div>
-            <div class="post">
-                <div class="image"><a href="#" target= "_blank"><img width="300" height="200" src="img/3.jpg" alt="3"></a></div>
-                <h1>Сванетія</h1><p>Дикі гори, домашнє вино, пригоди та колорит.Гори, які так схожі на Альпи, але зовсім дикі і первозданні. Прогуляємося біля водоспаду Мазері, полазимо по льодовиках Ушби та Шхари, милуватимемося горою Тетнульд з-під сванських веж.</p>
-                <hr>
-                <div class="hcs">
-                <p>three weeks ago</p>
-                <a href="#" target= "_blank"><i class="fa fa-weixin" aria-hidden="true">12</i>
-                <i class="fa fa-star-half-o" aria-hidden="true">4.8</i></a>
-                </div>
-            </div>
-            <div class="post">
-                <div class="image"><a href="#" target= "_blank"><img width="300" height="200" src="img/4.jpg" alt="4"></a></div>
-                <h1>Татри за вихідні</h1><p>Татри – мініатюрні Гімалаї, які зовсім поруч від нас, у сусідній Словаччині, за півдня їзди із України. Максимальна висота – 2655 метрів, півкілометра вище за Говерлу, проте вони геть скелясті, із сотнями гірських озер, водоспадів.</p>
-                <hr>
-                <div class="hcs">
-                <p>one monsth ago</p>
-                <a href="#" target= "_blank"><i class="fa fa-weixin" aria-hidden="true">12</i>
-                <i class="fa fa-star-half-o" aria-hidden="true">4</i></a>
-                </div>
-            </div>
-            <div class="post">
-                <div class="image"><a href="#" target= "_blank"><img width="300" height="200" src="img/5.jpg" alt="5"></a></div>
-                <h1>Лофотени</h1><p>Лофотенські острови – мальовничий архіпелаг на півночі Норвегії за Полярним колом. Десятки островів, гостроверхі гірські піки, численні озера й стрімкі фйорди. Піднімемось на знамениту гору Reinebringen з фантастичним краєвидом на Reine.</p>
-                <hr>
-                <div class="hcs">
-                <p>two monsths ago</p>
-                <a href="#" target= "_blank"><i class="fa fa-weixin" aria-hidden="true">12</i>
-                <i class="fa fa-star-half-o" aria-hidden="true">4.5</i></a>
-                </div>
-            </div>
-            <div class="post">
-                <div class="image"><a href="#" target= "_blank"><img width="300" height="200" src="img/6.jpg" alt="6"></a></div>
-                <h1>Фанські гори</h1><p>Справжній дикий трекінг по одному з найгарніших і найвіддаленіших регіонів світу. Пригоди для мандрівників, які цінують емоції і ексклюзивні місця. Висотні перевали, аквамаринові озера, водоспади, казкові покручені дерева арчі.</p>
-                <hr>
-                <div class="hcs">
-                <p>three monsths ago</p>
-                <a href="#" target= "_blank"><i class="fa fa-weixin" aria-hidden="true">12</i>
-                <i class="fa fa-star" aria-hidden="true">4.9</i></a>
-                </div>
-            </div>
+      <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
-        </main>
-        <aside>
-            <div class="block">
-                <a href="#" target= "_blank"><img width="200" height="200" src="img/7.jpg" alt="7"></a>
-                <h1>Максим Баландюх</h1><p>Журналіст, фотограф, викладач фотографії. Публікувався у "National Geographic" та "Бі-Бі-Сі". 26% минулого року провів у горах – у Гімалаях, Альпах, Карпатах і на Кавказі. Подорожі із Максом одночасно є й уроками фотографії. Знає багато веселих історій і носить зі собою гітару.</p>
+      <link rel="stylesheet" type="text/css" media="screen" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+
+      <script  src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script  src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js"></script>
+      <script src="http://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/src/js/bootstrap-datetimepicker.js"></script>
+
+      <style>
+         table td.highlighted {
+            background-color:#999;
+         }
+         table td.highlighted-final {
+            background-color:#b8dbf9;
+         }
+      </style>
+   </head>
+   <body class="body-flex">
+         <div class="user-time">
+            <img class="user-photo" src="img/userphoto.png" alt="photo">
+            <div class="user-info">
+               <h1 class="h1">Gregory House</h1>
+               <p class="p">Infectiologist and nephrologist</p>
+               <div class="icon-p">
+               <i class="fa fa-mobile fa-2x icon" aria-hidden="true"></i>
+               <p class="p">1-212-123 45 67</p>
+               </div>
             </div>
-            <div class="block">
-                <div class="flexbox">
-                <a href="https://www.facebook.com/vyo.travel" target= "_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
-                <a href="https://www.instagram.com/vyo.travel/" target= "_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-                <a href="#" target= "_blank"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
-                <a href="#" target= "_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-                <a href="#" target= "_blank"><i class="fa fa-skype fa-2x" aria-hidden="true"></i></a>
-            </div>
-            </div>
-            <div class="block">
-                <form>
-                <div class="cont" style="background-color:#B1D1CE">
-                    <input type="text" placeholder="Name" name="name" required>
-                    <input type="text" placeholder="Email address" name="mail" required>
+         </div>
+         <div class="time-box">
+              <div class="start-end">
+                <div class="start-end-woks">
+                  <h1 class="p-0">Select the start time</h1>
+                  <div class="start-time" style="overflow:hidden;">
+                   <div class="form-group">
+                       <div class="row">
+                           <div class="col-md-8">
+                               <div id="datetimepicker3" class="start"></div>
+                           </div>
+                       </div>
+                   </div>
+                   <script >
+                       $(function () {
+                           $('.start').datetimepicker({
+                               inline: true,
+                               sideBySide: true,
+                               format: 'HHmm',
+                               useCurrent: false
+                           });
+                       });
+                   </script>
                   </div>
+                  <h1 id="applyButton" class="p-0 apply-close">Apply</h1>
 
-                  <div class="cont">
-                    <input type="submit" value="Subscribe">
-                  </div>
-                </form>
-            </div>
-            <div class="block">
-                <form class="search">
-                  <input type="text" placeholder="search...">
-                  <a href="#"><i class="fa fa-search fa-2x" aria-hidden="true"></i></a>
-                </form>
-            </div>
-            <div class="block wrap">
-                <a href="#"><p>#татри</p></a>
-                <a href="#"><p>#румунія</p></a>
-                <a href="#"><p>#фанськігори</p></a>
-                <a href="#"><p>#сванетія</p></a>
-                <a href="#"><p>#лофотени</p></a>
-                <a href="#"><p>#молбан</p></a>
-                <a href="#"><p>#трансфагараш</p></a>
-            </div>
-            <div class="block">
-                <div class="flexbox">
-                    <a href="#" target= "_blank"><img width="70" height="70" src="img/8.jpg" alt="8"></a>
-                    <div class="info">
-                        <h5>Oksana Lozytska</h5>
-                        <p class="ellipsis">Дуже вам дякую!!! Це було неймовірно і найкращий Новий Рік в моєму житті! Ви the BEST!</p>
-                    </div>
-                </div>
-                <hr>
-                <div class="flexbox">
-                    <a href="#" target= "_blank"><img width="70" height="70" src="img/9.jpg" alt="9"></a>
-                    <div class="info">
-                        <h5>Христина Леськів</h5>
-                        <p class="ellipsis">Якщо тебе цікавлять мандри, пригоди, краєвиди, веселощі, нові знайомства та маса позивних емоцій - то тобі точно треба знати про цю крутецьку агенцію пригод ВЙО! Колєгі і коліжанки - я однозначно рекомендую</p>
-                    </div>
-                </div>
-                <hr>
-                <div class="flexbox">
-                    <a href="#" target= "_blank"><img width="70" height="70" src="img/10.jpg" alt="10"></a>
-                    <div class="info">
-                        <h5>Світлана Кухарук</h5>
-                        <p class="ellipsis">Xочу попередити тих, хто сумнівається чи іти з командою «ВЙО». Ви не просто підписуєтесь в похід з агенцією пригод - ви одразу здобуваєте собі справжніх друзів і віру в людство. Це унікальні люди, які знають все про подорожі і точно вміють їх зробити незабутніми і прекрасними. З власного досвіду, бо ходила із ВЙО до базового табору Евересту! Це найпрекрасніша пригода яку не описати словами. Дуже вдячна чудовій команді та бажаю вам успіху та розвитку вашої благородної справи!</p>
-                    </div>
-                </div>
-                <hr>
-                <div class="flexbox">
-                    <a href="#" target= "_blank"><img width="70" height="70" src="img/11.jpg" alt="11"></a>
-                    <div class="info">
-                        <h5>Віра Манзик</h5>
-                        <p class="ellipsis">Якщо тебе цікавлять мандри, пригоди, краєвиди, веселощі, нові знайомства та маса позивних емоцій - то тобі точно треба знати про цю крутецьку агенцію пригод ВЙО! Колєгі і коліжанки - я однозначно рекомендую</p>
-                    </div>
-                </div>
-            </div>
-        </aside>
-        </div>
-        <footer>
-            <ul>
-                        <li><a href="https://vyo.travel/" target= "_blank">Home</a></li>
-                        <li><a href="https://vyo.travel/tours/" target= "_blank">Tours</a></li>
-                        <li><a href="https://vyo.travel/about-us/" target= "_blank">About Me</a></li>
-                        <li><a href="https://vyo.travel/contacts/" target= "_blank">Contacts</a></li>
-                    </ul>
-                    <div class="social">
-                        <a href="https://www.facebook.com/vyo.travel" target= "_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
-                        <a href="https://www.instagram.com/vyo.travel/" target= "_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="logoImg"><a href="https://vyo.travel/" target= "_blank"><img width="50" height="50" src="img/logo-light.png" alt="logo"></a></div>
-                    <div class="nomber">+38-096-781-65-37</div>
-        </footer>
+               </div>
+               <div class="start-end-woks">
+               <h1 class="p-0">Select the end time</h1>
+               <div class="end-time" style="overflow:hidden;">
+                   <div class="form-group">
+                       <div class="row">
+                           <div class="col-md-8">
+                               <div id="datetimepicker4" class="end"></div>
+                           </div>
+                       </div>
+                   </div>
+                   <script >
+                       $(function () {
+                           $('.end').datetimepicker({
+                               inline: true,
+                               sideBySide: true,
+                               format: 'HHmm',
+                               useCurrent: false
+                           });
+                       });
+                   </script>
+               </div>
+               <h1 id="cancelButton" class="p-0 apply-close">Cancel</h1>
+             </div>
+              </div>
+         </div>
+         <div class="name-table">
+         <h1 class="h1-choose">Choose a working hous for a week</h1>
+         <table class="table">
+           <thead>
+             <tr>
+               <th>Date/Time</th>
+               <th>Sun</th>
+               <th>Mon</th>
+               <th>Tues</th>
+               <th>Wed</th>
+               <th>Thurs</th>
+               <th>Fri</th>
+               <th>Sat</th>
+             </tr>
+          </thead>
+          <tbody>
+             <tr>
+               <td>00:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>01:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>02:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>03:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>04:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>05:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>06:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>07:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>08:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>09:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>10:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>11:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>12:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>13:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>14:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>15:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>16:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>17:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>18:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>19:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>20:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>21:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>22:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>23:00</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+           </tbody>
+         </table>
+      </div>
 
+   <script>
+        $(function() {
+        var isMouseDown = false;
+        var daySelected = "";
+        var startHour;
+        var endHour;
+
+        var clickedItem;
+
+        // setup days // relative to table column number
+        let daysN = 2;
+        ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'].forEach(function(element) {
+            $('.table tbody tr td:nth-child(' + (daysN++) + ')').data('day', daysN - 1);
+        })
+        // done setting up days
+
+        $(".table tbody td")
+            .mousedown(function() {
+                clickedItem = $(this);
+                startHour = $(this)[0].parentNode.rowIndex;
+
+                $(".highlighted").removeClass("highlighted");
+                isMouseDown = true;
+                daySelected = $(this).data('day');
+                if (daySelected !== undefined) {
+                    $(this).toggleClass("highlighted");
+                }
+
+                return false; // prevent text selection
+            })
+            .mouseover(function() {
+                if (isMouseDown) {
+                    if (!$(this).hasClass("highlighted") &&
+                        daySelected !== undefined &&
+                        $(this).data('day') === daySelected) {
+                        $(this).toggleClass("highlighted");
+                    }
+                }
+            });
+
+        $(".table tbody td")
+            .mouseup(function() {
+                isMouseDown = false;
+                endHour = $(this)[0].parentNode.rowIndex;
+                if (endHour < startHour) {
+                    let c = endHour;
+                    endHour = startHour;
+                    startHour = c;
+                }
+
+                if (clickedItem.data()
+                  && clickedItem.data().startTime !== undefined
+                  && clickedItem.data().endTime !== undefined) {
+                  $('.start').data("DateTimePicker").date(clickedItem.data().startTime);
+                  $('.end').data("DateTimePicker").date(clickedItem.data().endTime);
+                } else {
+                  $('.start').data("DateTimePicker").date((startHour - 1) + ':00');
+                  $('.end').data("DateTimePicker").date(endHour + ':00');
+                }
+
+                $(".time-box").css({
+                    top: '20%',
+                    left: $(".table").position().left + ($(".table").width() - $(".time-box").width()) / 2,
+                    position: 'fixed'
+                });
+
+                $(".time-box").show();
+            });
+
+        // dialog
+        $("#applyButton").click(function() {
+            let startTime = $('.start').data("DateTimePicker").date().format('HH:mm');
+            let endTime = $('.end').data("DateTimePicker").date().format('HH:mm');
+            let time = startTime + ' - ' + endTime;
+            startHour = $('.start').data("DateTimePicker").date().format('HH');
+            endHour = $('.end').data("DateTimePicker").date().format('HH');
+            if (endHour < startHour || startTime == endTime) {
+                alert("Select correct hours!");
+            } else {
+
+                var arr = jQuery.grep($('.table tr').eq(1).find("td"), function(n, i) {
+                    return ($(n).data() && $(n).data().day == daySelected);
+                });
+
+                $('.table tbody tr td:nth-child(' + daySelected + ')').removeClass("highlighted");
+                var selectedCells = jQuery.grep($('.table tbody tr td:nth-child(' + daySelected + ')'), function(n, i) {
+                    if (startHour == endHour)
+                        return (i == startHour)
+                    else
+                        return (i > startHour - 1 && i < endHour);
+                });
+
+                selectedCells.forEach(function(element) {
+                    $(element).text("");
+                });
+                $(selectedCells[0]).text(time);
+                selectedCells.forEach(function(element) {
+                    $(element).data('startTime', startTime);
+                    $(element).data('start', startHour);
+                    $(element).data('endTime', endTime);
+                    $(element).data('end', endHour);
+                    $(element).addClass("highlighted-final");
+                    $(element).removeClass("highlighted");
+                });
+
+                $(".time-box").hide();
+            }
+        });
+
+        $("#cancelButton").click(function() {
+            let startPos = $(clickedItem).data().start;
+            let endPos = $(clickedItem).data().end;
+            let toClear = jQuery.grep($('.table tbody tr td:nth-child(' + daySelected + ')'), function(n, i) {
+                if (startPos == endPos)
+                    return (i == startPos)
+                else
+                    return (i > startPos - 1 && i < endPos);
+            });
+            toClear.forEach(function(element) {
+                $(element).text("");
+                $(element).removeData('startTime');
+                $(element).removeData('start');
+                $(element).removeData('endTime');
+                $(element).removeData('end');
+                $(element).removeClass("highlighted-final");
+                $(element).removeClass("highlighted");
+            });
+            $(".time-box").hide();
+        });
+
+    });
+   </script>
    </body>
 </html>
